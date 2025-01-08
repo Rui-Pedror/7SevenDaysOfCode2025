@@ -1,0 +1,99 @@
+* {
+    background-color: black;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:308px;
+    height:32px;
+    align-self: center;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:24px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:34px;
+    border-radius:0 7px 7px 0;
+    width:110px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+  
+/*
+
+  #divBusca img{
+    float:left;
+    width: 40px;
+    height: 30px;
+    padding-top: 1.2px;
+    padding-left: auto;
+    padding-bottom: 1.2px;
+  }
+*/    
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.filmes {
+    border-radius: 9px;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: auto;
+    padding-right: 250px;
+    padding-bottom: 10px;
+    
+}
+
+.filmes a :hover {
+
+
+} 
+
+h3 {
+    color: #ffffff;
+}
+
+#param1, #param2, #param3, #param4 {
+    color: aqua;
+    word-spacing: 0.1rem;
+    text-align: justify;
+}
+
+strong {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+i {
+    text-decoration: underline;
+}
